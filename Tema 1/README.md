@@ -65,63 +65,63 @@ functie de caz, apelam metoda din clasa corespunzatoare:
 	- Query: 
 		- Actors: 	
 			- Average: aplicam metodele:
-        - setMovieRatings, respectiv setSerialRatings din clasele Movie si Serial pentru a le folosi mai departe in calculul
-      rating-ului pentru fiecare actor
-        - setAverageFilmRatings din clasa Actor care calculeaza
-      rating-ul fiecarui actor, folosindu-se de datele setate in movie
-      si serial
-        - getActorsWithNonZeroRatings din clasa Actor care 
-      intoarce o lista cu actorii care au rating-ul diferit de zero,
-      adica care nu au primit rating
-        * sortByRating din clasa Actor care sorteaza actorii in
-      functie de rating
+				- setMovieRatings, respectiv setSerialRatings din clasele Movie si Serial pentru a le folosi mai departe in calculul
+			      rating-ului pentru fiecare actor
+				- setAverageFilmRatings din clasa Actor care calculeaza
+			      rating-ul fiecarui actor, folosindu-se de datele setate in movie
+			      si serial
+				- getActorsWithNonZeroRatings din clasa Actor care 
+			      intoarce o lista cu actorii care au rating-ul diferit de zero,
+			      adica care nu au primit rating
+				* sortByRating din clasa Actor care sorteaza actorii in
+			      functie de rating
 			- Awards: aplicam metodele:
-        - getActorsWithAwards din clasa Actor care intoarce o
-      lista cu actorii care au awards-urile din filters
-        - sortByAwards din clasa Actor care sorteaza actorii in 
-      functie de numarul de awards
-			- Filter Description: aplicam metodele:
-        - getActorsWithFilterDescription din clasa Actor care
-      intoarce o lista cu actorii a caror descriere contine filtrele
-      din query
-        - sortAlphabetically din clasa Actor care sorteaza
-      actorii alfabetic
+				- getActorsWithAwards din clasa Actor care intoarce o
+			      lista cu actorii care au awards-urile din filters
+				- sortByAwards din clasa Actor care sorteaza actorii in 
+			      functie de numarul de awards
+						- Filter Description: aplicam metodele:
+				- getActorsWithFilterDescription din clasa Actor care
+			      intoarce o lista cu actorii a caror descriere contine filtrele
+			      din query
+				- sortAlphabetically din clasa Actor care sorteaza
+			      actorii alfabetic
 		- Movies/Shows: 
 			- Ratings: aplicam metodele:
-        - getMovies(Serials)WithFilterDescription din clasa
-        Movie/Serial care intoare o lista cu filmele/serialele
-        care contin descrierea din query
-        - eliminateNonRated din clasa Movie/Serial care elimina
-        toate filmele/serialele care nu au primit rating
-        - sortByRating din clasa Movie/Serial care sorteaza
-        video-urile in functie de rating
+				- getMovies(Serials)WithFilterDescription din clasa
+				Movie/Serial care intoare o lista cu filmele/serialele
+				care contin descrierea din query
+				- eliminateNonRated din clasa Movie/Serial care elimina
+				toate filmele/serialele care nu au primit rating
+				- sortByRating din clasa Movie/Serial care sorteaza
+				video-urile in functie de rating
 			- Favorite: aplicam metodele:
-        - setMovie(Serial)FavoriteOccurrence din clasa Movie/
-        Serial care seteaza numarul de aparitii in listele
-        de favorite ale utilizatorilor
-        - getMovies(Serial)WithFilterDescription - idem
-        - eliminateNonFavorites din clasa Movie/Serial care 
-        elimina video-urile care nu apar in nicio lista de
-        - sortByFavoriteOccurrence din clasa Movie/Serial 
-        care sorteaza video-urile in functie de numarul de 
-        aparitii in listele de favorite ale utilizatorilor
-        favorite
+				- setMovie(Serial)FavoriteOccurrence din clasa Movie/
+				Serial care seteaza numarul de aparitii in listele
+				de favorite ale utilizatorilor
+				- getMovies(Serial)WithFilterDescription - idem
+				- eliminateNonFavorites din clasa Movie/Serial care 
+				elimina video-urile care nu apar in nicio lista de
+				- sortByFavoriteOccurrence din clasa Movie/Serial 
+				care sorteaza video-urile in functie de numarul de 
+				aparitii in listele de favorite ale utilizatorilor
+				favorite
 			- Longest: aplicam metodele:
-        - getMoviesWithFilterDescription - idem
-        - sortByDuration din clasa Movie/Serial care sorteaza 
-        video-urile in functie de durata lor 
-			- Most Viewed: aplicam metodele:
-        - getMovies(Serials)WithFilterDescription - idem
-        - eliminateNonViewed din clasa Movies/Serial care 
-        elimina video-urile care nu au fost vizualizate
-        - sortByViews din clasa Movie/Serial care sorteaza 
-        video-urile in functie de numarul de views
+				- getMoviesWithFilterDescription - idem
+				- sortByDuration din clasa Movie/Serial care sorteaza 
+				video-urile in functie de durata lor 
+						- Most Viewed: aplicam metodele:
+				- getMovies(Serials)WithFilterDescription - idem
+				- eliminateNonViewed din clasa Movies/Serial care 
+				elimina video-urile care nu au fost vizualizate
+				- sortByViews din clasa Movie/Serial care sorteaza 
+				video-urile in functie de numarul de views
 		- Users:
 			- Number Ratings
-        - eliminateNonRaters din clasa User care elimina toti
-        userii care nu au dat niciun rating
-        - sortByNoGivenRatings din clasa User care sorteaza
-        userii in functie de numarul de rating-uri date
+				- eliminateNonRaters din clasa User care elimina toti
+				userii care nu au dat niciun rating
+				- sortByNoGivenRatings din clasa User care sorteaza
+				userii in functie de numarul de rating-uri date
 	- Recommendation:
 		- Standard: aplicam metoda:
  			- getStandardRecommendation2 din clasa User care 
